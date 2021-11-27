@@ -18,6 +18,7 @@ Specification
 
 -   REGISTER USER
     [POST] http://127.0.0.1:8000/api/register
+
     PARAMS :
     ##Header
     Accept application/json
@@ -25,8 +26,10 @@ Specification
     name [your name]
     email [your email]
     password [your password]
+
 -   LOGIN USER
     [POST] http://127.0.0.1:8000/api/token
+
     PARAMS :
     ##Header
     Accept application/json
@@ -36,6 +39,7 @@ Specification
 
 -   REFRESH TOKEN
     [POST] http://127.0.0.1:8000/api/token
+
     PARAMS :
     ##Header
     Accept application/json
